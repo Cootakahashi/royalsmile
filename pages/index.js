@@ -12,35 +12,7 @@ export default function Home() {
         <script src="https://cdn.tailwindcss.com"></script>
 
       </Head>
-      <video
-          type="video/mp4"
-          className="m-auto videoanime sm:hidden hidden md:block"
-          src="video/top.mp4"
-          muted
-          autoPlay
-          playsInline
-          width=""
-        ></video>
-              {/* <video
-          type="video/mp4"
-          className="m-auto videoanime sm:block md:hidden"
-          src="video/top1.mp4"
-          muted
-          autoPlay
-          playsInline
-          width="555px"
-        ></video> */}
-       <video
-          type="video/mp4"
-          className="m-auto videoanime sm:block md:hidden"
-          src="video/beautiful.mp4"
-          muted
-          autoPlay
-          playsInline
-          width="555px"
-        ></video> 
 
-   
 <button className="buttonanime md:mr-auto relative -top-40 md:-top-12 z-50 md:w-80 md:ml-aut md:mr-12 md:h-16 md:text-2xl md:-translate-y-20 flex -translate-y-24 ml-8 w-48 bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 hover:bg-blue-400 text-white font-serif	tracking-wider	antialiased py-2 px-4  border-purple-700 hover:border-blue-500 rounded">
 <span className="m-auto">Instagram</span> 
   <svg viewBox="0 0 30 30" fill="currentColor" className="h-6 -translate-x-4 md:mt-3">
@@ -93,13 +65,7 @@ export default function Home() {
           </p>
         </div>
         <div className="mb-4 transition-shadow duration-300 hover:shadow-xl lg:mb-6">
-          <Image
-            className="object-cover w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96"
-            src="/picture/1.png"
-            alt=""
-            width="300"
-            height="500"
-          />
+
         </div>
         <p className="max-w-xl mb-4 text-base text-gray-700 sm:mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

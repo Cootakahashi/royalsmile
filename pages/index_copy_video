@@ -1,0 +1,28 @@
+<video
+type="video/mp4"
+className="m-auto videoanime sm:hidden hidden md:block"
+src="video/top.mp4"
+muted
+autoPlay
+playsInline
+width=""
+></video>
+    {/* <video
+type="video/mp4"
+className="m-auto videoanime sm:block md:hidden"
+src="video/top1.mp4"
+muted
+autoPlay
+playsInline
+width="555px"
+></video> */}
+<video
+type="video/mp4"
+className="m-auto videoanime sm:block md:hidden"
+src="video/beautiful.mp4"
+muted
+autoPlay
+playsInline
+width="555px"
+></video> 
+
