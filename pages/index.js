@@ -12,8 +12,28 @@ export default function Home() {
         <script src="https://cdn.tailwindcss.com"></script>
 
       </Head>
+      <video
+type="video/mp4"
+className="m-auto videoanime sm:hidden hidden md:block"
+src="video/top.mp4"
+muted
+autoPlay
+playsInline
+width=""
+></video>
 
-<button className="buttonanime md:mr-auto relative -top-40 md:-top-12 z-50 md:w-80 md:ml-aut md:mr-12 md:h-16 md:text-2xl md:-translate-y-20 flex -translate-y-24 ml-8 w-48 bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 hover:bg-blue-400 text-white font-serif	tracking-wider	antialiased py-2 px-4  border-purple-700 hover:border-blue-500 rounded">
+<video
+type="video/mp4"
+className="m-auto videoanime sm:block md:hidden"
+src="video/beautiful.mp4"
+muted
+autoPlay
+playsInline
+width="555px"
+></video> 
+
+
+<button className="buttonanime md:mr-auto relative -top-32 md:-top-12 z-50 md:w-80 md:ml-aut md:mr-12 md:h-16 md:text-2xl md:-translate-y-20 flex -translate-y-24 ml-8 w-48 bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 hover:bg-blue-400 text-white font-serif	tracking-wider	antialiased py-2 px-4  border-purple-700 hover:border-blue-500 rounded">
 <span className="m-auto">Instagram</span> 
   <svg viewBox="0 0 30 30" fill="currentColor" className="h-6 -translate-x-4 md:mt-3">
         <circle cx="15" cy="15" r="4" />
